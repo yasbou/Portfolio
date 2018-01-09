@@ -1,26 +1,43 @@
 body{
  font-family: 'Roboto', sans-serif;
- width: 900px;
- margin: 10px auto;
  line-height: 1.5;
+}
+
+main{
+  width: 900px;
+   margin: 20px;
+  float: right;
 }
 
 #nav{
 
   position: fixed ;
-  background-color:  white;
-  margin-top: -200px;
   padding-right: 10px;
 
   }
+
+#nav li{
+  background-color:  black;
+  border: 1px solid gray;
+  padding: 40px
+
+}
 
 #accueil{
   margin-top: 200px
 }
 
+#contact, #portfolio, #competence{
+  margin-top: 300px
+}
+
 #accueil-text{
-  width: 500px;
+  width: 400px;
   float: right;
+}
+
+#portfolio li{
+  display: inline;
 }
 
 #logo{
@@ -28,23 +45,22 @@ body{
   height: 100px;
 }
 
-ul{
-  margin-left: 530px;
-  margin-bottom: 50px;
-  margin-top: -50px;
+.portfolio-link img{
+  width: 250px;
+  height: 180px;
 }
 
-
-li{
-
+.portfolio-link{
   display: inline-block;
-  margin-left: 40px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+  text-align: center;
 }
 
 hr {
 	height: none;
 	border: none;
-	border-top: 1px dashed grey;
+	border-top: 1px dashed lightgrey;
 }
 
 
@@ -64,4 +80,22 @@ h1{
 
 #accueil-apropos {
   width: 600px;
+}
+
+a{
+  text-decoration: none;
+    color: lightgray;
+}
+
+#competence img{
+  width: 100px;
+  margin-top: 50px;
+}
+
+#competence h4{
+  font-size: 30px
+}
+
+#portfolio h3{
+  font-size: 30px
 }
