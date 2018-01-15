@@ -1,3 +1,5 @@
+<?php include 'formulaire.php'; ?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -55,11 +57,11 @@
 <hr>
 
 
-  <div class= "portfolio-link"><a href="cameleon/html/"><img src="images/cameleon.png" alt=""><h4>Cameleon</h4><span>inté html&css</span></a></div>
-  <div class= "portfolio-link"><a href="herocorp/html"><img src="images/herocorp.png" alt=""><h4>Herocorp</h4><span>inté html&css</span></a></div>
-  <div class= "portfolio-link"><a href="blogoclock/"><img src="images/blogoclock.png" alt=""><h4>blogoclock</h4><span>html&css&php</span></a></div>
-  <div class= "portfolio-link"><a href="pantoufland/"><img src="images/pantoufland.png" alt=""><h4>pantoufland</h4><span>ajax&php</span></a></div>
-  <div class= "portfolio-link"><a href="todolist/"><img src="images/todolist.png" alt=""><h4>todolist</h4><span>ajax&php</span></a></div>
+  <div class= "portfolio-link"><a href="cameleon/html"><img src="images/cameleon.png" alt=""><h4>Cameleon</h4><span>inté html/css</span></a></div>
+  <div class= "portfolio-link"><a href="herocorp/html"><img src="images/herocorp.png" alt=""><h4>Herocorp</h4><span>inté html/css</span></a></div>
+  <div class= "portfolio-link"><a href="blogoclock/"><img src="images/blogoclock.png" alt=""><h4>blogoclock</h4><span>html/css/php</span></a></div>
+  <div class= "portfolio-link"><a href="pantoufland/"><img src="images/pantoufland.png" alt=""><h4>pantoufland</h4><span>ajax/php</span></a></div>
+  <div class= "portfolio-link"><a href="todolist/"><img src="images/todolist.png" alt=""><h4>todolist</h4><span>ajax/php</span></a></div>
   <div class= "portfolio-link"><a href="moviedb/web/app_dev.php"><img src="images/moviedb.png" alt=""><h4>moviedb</h4><span>Symfony 3</span></a></div>
   <div class= "portfolio-link"><a href='ae/web/app_dev.php'><img src="images/ae.png" alt=""><h4>Arabian_event</h4>Symfony 3<span></span></a></div>
 
@@ -89,11 +91,21 @@
   <img src="images/wp.png" alt="">
   <img src="images/react.png" alt="">
 </div>
+
+
+<hr>
 <div id="contact">
+  <h4>Contactez-moi</h4>
 
+  <form  action="formulaire.php" method="post">
+  
+    <input class="champ" type="text" name="name" placeholder="Nom">
+    <input class="champ" type="text" name="lastname" placeholder="Prénom">
+    <input class="champ" type="text" name="e-mail" placeholder="E-mail">
+    <textarea class="champ" name="message" rows="8" cols="80" placeholder="écrivez votre message ici..."></textarea>
+    <button class="champ" type="submit" name="button">Envoyer</button>
 
-  faire le formulaire de contact
-  imprimer un cv
+  </form>
 
 </div>
 </main>

@@ -1,3 +1,6 @@
+@media all and (max-width: 1280px)
+{
+
 body{
  font-family: 'Roboto', sans-serif;
  line-height: 1.5;
@@ -98,4 +101,134 @@ a{
 
 #portfolio h3{
   font-size: 30px
+}
+}
+
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+
+@media all and (min-width: 1290px)
+{
+  body{
+ font-family: 'Roboto', sans-serif;
+ line-height: 1.5;
+}
+
+main{
+  width: 900px;
+   margin: 20px auto;
+
+}
+
+#nav{
+
+  position: fixed ;
+  padding-right: 10px;
+  margin-top: -200px
+
+  }
+
+#nav li{
+  font-size:30px;
+  background-color:  black;
+  border: 1px solid gray;
+  padding: 55px
+
+}
+
+
+#accueil{
+  margin-top: 200px
+}
+
+#contact, #portfolio, #competence{
+  margin-top: 300px
+}
+
+#accueil-text{
+  width: 400px;
+  float: right;
+}
+
+#portfolio li{
+  display: inline;
+}
+
+#logo{
+  width: 100px;
+  height: 100px;
+}
+
+.portfolio-link img{
+  width: 250px;
+  height: 180px;
+}
+
+.portfolio-link{
+  display: inline-block;
+  margin-left: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+hr {
+	height: none;
+	border: none;
+	border-top: 1px dashed lightgrey;
+}
+
+
+h1{
+ margin-top: 30px;
+ font-size: 30px;
+ text-align: center;
+}
+
+#accueil p{
+  margin-top: 30px;
+
+}
+#accueil h6{
+  background-color: lightgray;
+}
+
+#accueil-apropos {
+  width: 600px;
+}
+
+a{
+  text-decoration: none;
+    color: lightgray;
+}
+
+#competence img{
+  width: 100px;
+  margin-top: 50px;
+}
+
+#competence h4{
+  font-size: 30px
+}
+
+#portfolio h3{
+  font-size: 30px
+}
+
+}
+
+form{
+
+  display:-moz-groupbox;
+
+
+}
+
+
+.champ{
+  margin-bottom: 15px;
+}
+
+#contact h4{
+
+  font-size: 30px;
+
 }
